@@ -1,0 +1,32 @@
+/*
+let a =10;
+let b=20;
+let c= a+b;
+
+Operators : are symbols that perform operations on values.In the expression 10+3 , the + is operatos and 
+10 , 3 is operands.
+
+Javascript groups its operators into a few main types :
+
+1. Arithmetic Operators : are used to perform arithmetic operations on numbers
+for example : + , - , * , / , % , ++ , --
+2. Assignment Operators : are used to assign values to variables
+    for example : = , += , -= , *= , /= , %=
+3. Comparison Operators : are used to compare two values and return a boolean value (true or false)
+    for example : == , === , != , !== , > , < , >= , <=
+4. Logical Operators : are used to combine multiple boolean expressions and return a boolean value
+    for example : && , || , !
+6. String Operators : are used to concatenate strings
+for example : + 
+7. Conditional (Ternary) Operators : are used to evaluate a condition and return one of two values based on the result
+    for example : condition ? value1 : value2
+8.nullishg Operators : are used to return the right-hand operand when the left-hand operand is null or undefined
+    for example : ??
+9.typeof Operator : is used to check the type of a value
+    for example : typeof value ["typeof"]
+
+
+
+
+
+*/

@@ -1,0 +1,68 @@
+/*
+Literals are fixed values that we written in the code.It represent actual Data.
+ They are the most basic building blocks of JavaScript programs. 
+ let a=10;
+ Variable a is assigned with a literal value 10.
+ Variable value is as the literal.the value that you assign directly to a variable is called literal.
+
+
+ There are several types of literals in JavaScript, including:
+1. Number Literals: Represent numbers, such as integers and floating-point numbers. 
+   For example: 42, 3.14, -7.
+2. String Literals: Represent sequences of characters enclosed in single or double quotes.
+ For example: 'Hello, World!', "JavaScript is fun!".
+3. Boolean Literals: Represent the two boolean values, 
+   true and false.
+4. Array Literals: Represent ordered collections of values enclosed in square brackets. 
+   For example: [1, 2, 3], ['apple', 'banana', 'cherry'].              
+5. Object Literals: Represent collections of key-value pairs enclosed in curly braces.
+   For example: { name: 'John', age: 30 }, { color: 'red', size: 'large' }.
+6. Null Literal: Represents the intentional absence of any object value. 
+   It is denoted by the keyword null.
+7. Undefined Literal: Represents a variable that has been declared but has not yet been assigned a value.
+    It is denoted by the keyword undefined.
+8. Template Literals: Represent string literals that allow embedded expressions and multi-line strings. 
+  They are enclosed in backticks (`) and can include placeholders using ${expression}. For example: `Hello, ${name}!`, `This is a multi-line string.`.
+9. Regular Expression Literals: Represent patterns used for matching character combinations in strings. 
+They are enclosed in forward slashes (/pattern/). For example: /ab+c/, /\d{3}-\d{2}-\d{4}/.
+10. BigInt Literals: Represent whole numbers larger than the maximum safe integer in JavaScript.
+ They are denoted by appending an "n" to the end of the number. 
+  For example: 1234567890123456789012345678901234567890n.
+11. Symbol Literals: Represent unique and immutable values that can be used as identifiers for 
+object properties. They are created using the Symbol() function. 
+For example: Symbol('mySymbol'), Symbol.iterator.
+12. Function Literals: Represent functions that can be assigned to variables or passed as arguments. 
+They can be defined using the function keyword or arrow function syntax.
+ For example: function add(a, b) { return a + b; }, const multiply = (x, y) => x * y;.
+13. Infinity and NaN Literals: Represent special numeric values. Infinity represents positive infinity, 
+   while NaN (Not-a-Number) represents an undefined or unrepresentable value. For example: Infinity, NaN.
+
+
+
+*/
+
+/*
+Primitive datatypes : are the most basic data types in JavaScript. 
+Primitive means they cannot be broken down further.
+The primitive data types in JavaScript are:
+1. Number: Represents numeric values, including integers and floating-point
+    numbers. For example: 42, 3.14, -7.
+2. String: Represents sequences of characters enclosed in single or double quotes.
+    For example: 'Hello, World!', "JavaScript is fun!".
+3. Boolean: Represents the two boolean values, true and false.
+4. Null: Represents the intentional absence of any object value. It is denoted by the keyword null.
+5. Undefined: Represents a variable that has been declared but has not yet been assigned a value.
+    It is denoted by the keyword undefined.
+6. Symbol: Represents unique and immutable values that can be used as identifiers for object properties.
+    They are created using the Symbol() function. For example: Symbol('mySymbol'), Symbol.iterator.
+7. BigInt: Represents whole numbers larger than the maximum safe integer in JavaScript.
+    They are denoted by appending an "n" to the end of the number. For
+
+    example: 1234567890123456789012345678901234567890n.
+*/
+/*
+
+Non Primitive Data Types
+they can be further breakdown
+1. Array, FUnctions, Objects  
+ */
