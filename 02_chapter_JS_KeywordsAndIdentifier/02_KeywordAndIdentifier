@@ -1,0 +1,64 @@
+/*
+Keywords: Keyword are Specisl word in JavaScript that already have fixed menaing.
+          Used to write a Instructions in Javascript
+          Cannot normally be used as Ordinary varibales name. 
+
+Some Common Keywords are 
+let,const,var,if,else,for,while,function,return
+
+Keyword	Purpose	Example
+var	     >Declares a variable	                  > var age = 20;
+let      >Declares a block-scoped variable	      > let name = "Raj";
+const    >Declares a constant binding	          >const pi = 3.14;
+if	     >Checks a condition	                  >if (age >= 18)
+else	 > Runs when the condition is false	      >else { ... }
+for	     >Creates a loop	                      >for (let i = 0; i < 5; i++)
+function >Declares a function	                  >function greet() {}
+return	 >Returns a value from a function	      > return 10;
+class	 >Declares a class	                      >class Student {}
+while	 > Repeats while a condition is true	  > while (x < 5)
+
+Example:
+let age =20;
+console.log(age);
+OUTPUT : 20 
+
+Here, let : let is Keyword in Javascript that we want to decleared the Variable 
+      age : age is the Name of varibale 
+      20: value 
+      console.log(age); : display a value on the screen 
+
+Identifier: Identifier are the name we give to the varibles,function,classes,and other elements 
+             in the program 
+             Name chosen by the Programmer 
+             Must follow javascript rules 
+             Rules for writing identifier
+             Rule1: An identifier start with letter,undrscore, doller Sign 
+             Rule 2 : An Identifier cannot start with Number > Invalid : 2name and Valid : name2
+             Rule 3: An Space is not allowed 
+             Rule4: Do not used reserved as an Identifier : let if =90 : it is invalid 
+             Rule 5: Javascript is case sensitive : age , Age are two different identifiers
+
+
+ For ex: You have a name the identifies you.Similarly, a Varible has a name the identifies value stored in it.
+           let studentname = "Rahul";
+           let age = 35;
+
+           console.log(studentname);
+           console.log(age);
+Here, let : keyword 
+      studentname,age: identifier 
+Why are studentName and age identifiers? Because we choose these names to identify our variables.
+
+
+
+
+
+
+
+
+
+
+
+
+*/
