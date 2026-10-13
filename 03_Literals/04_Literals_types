@@ -22,7 +22,8 @@ Literals are fixed values that we written in the code.It represent actual Data.
 7. Undefined Literal: Represents a variable that has been declared but has not yet been assigned a value.
     It is denoted by the keyword undefined.
 8. Template Literals: Represent string literals that allow embedded expressions and multi-line strings. 
-  They are enclosed in backticks (`) and can include placeholders using ${expression}. For example: `Hello, ${name}!`, `This is a multi-line string.`.
+  They are enclosed in backticks (`) and can include placeholders using ${expression}.
+   For example: `Hello, ${name}!`, `This is a multi-line string.`.
 9. Regular Expression Literals: Represent patterns used for matching character combinations in strings. 
 They are enclosed in forward slashes (/pattern/). For example: /ab+c/, /\d{3}-\d{2}-\d{4}/.
 10. BigInt Literals: Represent whole numbers larger than the maximum safe integer in JavaScript.

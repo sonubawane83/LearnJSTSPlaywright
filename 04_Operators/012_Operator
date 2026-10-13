@@ -26,7 +26,19 @@ for example : +
     for example : typeof value ["typeof"]
 
 
+*/
 
-
+/*
+Operators Discuss 
+1. Assignment
+2. Logical (&&) this will use 
+3. Arithmetic
+4. Comparison
+5. String concatenate
+6. Type
+7. Bitwise (&)  not going to used 
+8. Ternary
+9. Increment and Decrement 
+10. nullish Coalescing
 
 */

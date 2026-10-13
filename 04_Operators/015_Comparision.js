@@ -17,6 +17,7 @@ console.log("Salary1 === Salary2 : ",salary1 === salary2); // True
 let r=10;
 let s=20;
 
+// Asked in interview 
 console.log(r===s);
 console.log(r==s);
 

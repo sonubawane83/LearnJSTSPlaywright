@@ -1,0 +1,22 @@
+
+/*
+DataTypes in JavaScript
+1. Primative Data Type 
+2. Non- primative Data type 
+
+
+1. Primative data Type
+a. Numeric Type : Number 
+                  bigint
+                  
+b. Non Numeric type : String , boolean , Null , Undefined, Symbol
+
+
+
+2. Non Primative data type
+Object, Arrays, function, Date Object , regular expression
+                  
+
+*/
+
+
