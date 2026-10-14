@@ -1,0 +1,23 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "description": "A collection of beginner-friendly JavaScript notes and examples, organized by topic. The lessons cover JavaScript fundamentals and operators, with Playwright planned as a future learning topic.",
+  "homepage": "https://github.com/sonubawane83/LearnJSTSPlaywright#readme",
+  "bugs": {
+    "url": "https://github.com/sonubawane83/LearnJSTSPlaywright/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonubawane83/LearnJSTSPlaywright.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

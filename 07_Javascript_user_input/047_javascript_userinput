@@ -1,0 +1,15 @@
+
+/*
+Javascript user Input 
+
+1. prompt  is function and work in browser not in Vs code javascript 
+2. readline()  -> NodeJS
+3. prompt-sync -> NodeJS
+4. fs.readFile() -> NodeJS 
+
+// fs is also funcition 
+// we not take any input the javascript User input will not take 
+// we take csv file and Excel file and JSON file 
+no input will take 
+
+*/

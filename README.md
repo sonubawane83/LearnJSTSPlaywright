@@ -1,6 +1,6 @@
 # Learn JavaScript and Playwright
 
-A collection of beginner-friendly JavaScript notes and examples, organized by topic. The lessons cover JavaScript fundamentals and operators, with Playwright planned as a future learning topic.
+A collection of beginner-friendly JavaScript notes and examples, organized by topic. The lessons cover JavaScript fundamentals, operators, conditionals, loops, and user input. Playwright is planned as a future learning topic.
 
 ## Topics
 
@@ -9,16 +9,24 @@ A collection of beginner-friendly JavaScript notes and examples, organized by to
 - **Literals** — numbers, strings, template literals, booleans, arrays, `null`, `undefined`, `BigInt`, and special numeric values
 - **Operators** — arithmetic, assignment, comparison, logical, and ternary operators
 - **Decrement and increment** — prefix and postfix operations, nullish coalescing, and practice questions
+- **Conditionals and loops** — `if`/`else`, `switch`, and related practice questions
+- **User input** — Node.js input and file-reading examples
 
 ## Getting started
 
-Install [Node.js](https://nodejs.org/) to run the examples. Clone the repository, open a terminal in the project directory, and run an individual JavaScript file:
+Install [Node.js](https://nodejs.org/), clone the repository, and install its dependencies:
 
 ```sh
-node "05_DecrementAndIncrement/038_Task4.js"
+npm install
 ```
 
-Each file is a standalone example. Some files contain notes or demonstrations of particular values, so run examples individually rather than expecting a single application entry point.
+Run an individual JavaScript file from the project directory:
+
+```sh
+node "06_Conditional_Loop/039_if_and_else.js"
+```
+
+Each file is a standalone example. Some input examples require interactive terminal input, and some files contain notes or demonstrations of particular values, so run examples individually rather than expecting a single application entry point.
 
 ## Project layout
 
@@ -28,4 +36,6 @@ Each file is a standalone example. Some files contain notes or demonstrations of
 03_Literals/
 04_Operators/
 05_DecrementAndIncrement/
+06_Conditional_Loop/
+07_Javascript_user_input/
 ```
