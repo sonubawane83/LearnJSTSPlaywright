@@ -1,0 +1,30 @@
+
+// in loops we follow the rule of ICU 
+// i = initialization  i=0
+// c= condition check  i<5
+// u = updation  i++
+// for loop use when you know how many times to iterate 
+for(let i=0; i<10; i++){
+console.log(i); // Print 1-9 
+
+}
+
+for(let e=0; e<=10; e++){
+console.log(e); // Print 1-9 
+}
+
+
+for(let _1 =0; _1<=10; _1++){
+    console.log(_1);   // 0to 10 will print and variable can be _1 
+}
+
+/*
+
+For of , FOr in ,FOrEach -> They will come when we use the Array!
+
+
+
+
+
+
+*/

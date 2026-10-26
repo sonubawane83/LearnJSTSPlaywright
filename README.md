@@ -1,32 +1,34 @@
 # Learn JavaScript and Playwright
 
-A collection of beginner-friendly JavaScript notes and examples, organized by topic. The lessons cover JavaScript fundamentals, operators, conditionals, loops, and user input. Playwright is planned as a future learning topic.
+A collection of beginner-friendly JavaScript notes and runnable examples, organized by topic. The lessons progress from language fundamentals through arrays, functions, objects, and asynchronous JavaScript. The repository is currently focused on JavaScript learning examples; it does not yet include a Playwright test suite.
 
 ## Topics
 
-- **JavaScript basics** — introductory examples
-- **Keywords and identifiers** — reserved words, variable names, and naming rules
-- **Literals** — numbers, strings, template literals, booleans, arrays, `null`, `undefined`, `BigInt`, and special numeric values
-- **Operators** — arithmetic, assignment, comparison, logical, and ternary operators
-- **Decrement and increment** — prefix and postfix operations, nullish coalescing, and practice questions
-- **Conditionals and loops** — `if`/`else`, `switch`, and related practice questions
-- **User input** — Node.js input and file-reading examples
+- **JavaScript foundations** — basics, keywords and identifiers, literals, and variables (`var`, `let`, and `const`)
+- **Operators and control flow** — arithmetic, assignment, comparison, logical and ternary operators; conditionals; `for`, `while`, and `do...while` loops
+- **Core data types** — strings, arrays, multidimensional arrays, and objects, including common operations and practice questions
+- **Functions** — declarations, expressions, arrow functions, parameters, return values, closures, callbacks, and IIFEs
+- **Asynchronous JavaScript** — promises, promise chaining and combinators, and `async`/`await`
+- **Modules and classes** — export/import examples and basic classes and objects
+- **Node.js input** — interactive input and file-reading examples
 
 ## Getting started
 
 Install [Node.js](https://nodejs.org/), clone the repository, and install its dependencies:
 
 ```sh
+git clone https://github.com/sonubawane83/LearnJSTSPlaywright.git
+cd LearnJSTSPlaywright
 npm install
 ```
 
-Run an individual JavaScript file from the project directory:
+Run an individual lesson from the project directory:
 
 ```sh
 node "06_Conditional_Loop/039_if_and_else.js"
 ```
 
-Each file is a standalone example. Some input examples require interactive terminal input, and some files contain notes or demonstrations of particular values, so run examples individually rather than expecting a single application entry point.
+Each JavaScript file is a standalone example; there is no single application entry point or automated test suite. Some lessons require interactive terminal input, so run examples individually.
 
 ## Project layout
 
@@ -38,4 +40,18 @@ Each file is a standalone example. Some input examples require interactive termi
 05_DecrementAndIncrement/
 06_Conditional_Loop/
 07_Javascript_user_input/
+08_for_Loop/
+09_while Loop/
+010_do_while loop/
+011_Variable/
+012_Array/
+013_Functions/
+014_Strings/
+015_Object_onlyuseconst.js/
+016_MultiDiamensional_Array/
+017_CallBack/
+018_Promise/
+019_Async_Await/
+020_ExportANDImport/
+21_Function_Practice/
 ```
