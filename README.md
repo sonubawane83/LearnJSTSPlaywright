@@ -1,57 +1,73 @@
-# Learn JavaScript and Playwright
+# LearnJSTSPlaywright
 
-A collection of beginner-friendly JavaScript notes and runnable examples, organized by topic. The lessons progress from language fundamentals through arrays, functions, objects, and asynchronous JavaScript. The repository is currently focused on JavaScript learning examples; it does not yet include a Playwright test suite.
+A self-paced learning repository focused on JavaScript fundamentals, problem-solving exercises, and Playwright-based automation exploration. The project is designed to help beginners build confidence through small, runnable examples rather than large production-style applications.
 
-## Topics
+## What is included
 
-- **JavaScript foundations** — basics, keywords and identifiers, literals, and variables (`var`, `let`, and `const`)
-- **Operators and control flow** — arithmetic, assignment, comparison, logical and ternary operators; conditionals; `for`, `while`, and `do...while` loops
-- **Core data types** — strings, arrays, multidimensional arrays, and objects, including common operations and practice questions
-- **Functions** — declarations, expressions, arrow functions, parameters, return values, closures, callbacks, and IIFEs
-- **Asynchronous JavaScript** — promises, promise chaining and combinators, and `async`/`await`
-- **Modules and classes** — export/import examples and basic classes and objects
-- **Node.js input** — interactive input and file-reading examples
+- JavaScript basics: variables, data types, operators, loops, and conditionals
+- Core language concepts: arrays, strings, objects, functions, closures, and callbacks
+- Asynchronous JavaScript: promises, async/await, and real-world examples
+- Practice exercises: logic challenges, transformation tasks, and problem-solving drills
+- Playwright learning path: browser automation topics planned and introduced as the repo evolves
+
+## Repository structure
+
+```text
+.
+├── 010_do_while loop/
+├── 011_Variable/
+├── 012_Array/
+├── 013_Functions/
+├── 014_Strings/
+├── 015_Object_onlyuseconst.js/
+├── 016_MultiDiamensional_Array/
+├── 017_CallBack/
+├── 018_Promise/
+├── 019_Async_Await/
+├── 020_ExportANDImportOOPS/
+├── 022_Typescript/
+├── 023_HostingANDTDZ/
+├── 024_Clouser/
+├── 01_chapter_JS_Basics/
+├── 02_chapter_JS_KeywordsAndIdentifier/
+├── 03_Literals/
+├── 04_Operators/
+├── 05_DecrementAndIncrement/
+├── 06_Conditional_Loop/
+├── 07_Javascript_user_input/
+├── 08_for_Loop/
+├── 09_while Loop/
+├── 21_Function_Practice/
+├── 25_String/
+├── LogicalProgram/
+├── package.json
+├── tsconfig.json
+├── README.md
+└── test-results/
+```
 
 ## Getting started
 
-Install [Node.js](https://nodejs.org/), clone the repository, and install its dependencies:
+Make sure you have [Node.js](https://nodejs.org/) installed, then run:
 
-```sh
+```bash
 git clone https://github.com/sonubawane83/LearnJSTSPlaywright.git
 cd LearnJSTSPlaywright
 npm install
 ```
 
-Run an individual lesson from the project directory:
+Run any individual lesson file directly:
 
-```sh
-node "06_Conditional_Loop/039_if_and_else.js"
+```bash
+node "014_Strings/1.lengthANDChar.js"
 ```
 
-Each JavaScript file is a standalone example; there is no single application entry point or automated test suite. Some lessons require interactive terminal input, so run examples individually.
+## Notes
 
-## Project layout
+- Most files are standalone JavaScript examples designed for learning and experimentation.
+- Some examples use the terminal for user input, so they work best when run individually.
+- This repository is intentionally beginner-focused and is meant to be used as a study reference as the JavaScript and Playwright concepts continue to grow.
 
-```text
-01_chapter_JS_Basics/
-02_chapter_JS_KeywordsAndIdentifier/
-03_Literals/
-04_Operators/
-05_DecrementAndIncrement/
-06_Conditional_Loop/
-07_Javascript_user_input/
-08_for_Loop/
-09_while Loop/
-010_do_while loop/
-011_Variable/
-012_Array/
-013_Functions/
-014_Strings/
-015_Object_onlyuseconst.js/
-016_MultiDiamensional_Array/
-017_CallBack/
-018_Promise/
-019_Async_Await/
-020_ExportANDImport/
-21_Function_Practice/
-```
+## License
+
+This project is for educational learning purposes and is not intended as a production-ready application.
